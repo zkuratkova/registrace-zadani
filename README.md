@@ -1,6 +1,6 @@
 # Registrační formulář
 
-V následujícím projektu vytvořte React komponentu `Registration`, která bude představovat registrační formulář do nějaké webové aplikace, viz obrázek.
+V projektu připraveném v tomto repozitáři vytvořte React komponentu `Registration`, která bude představovat registrační formulář do nějaké webové aplikace, viz obrázek.
 
 <img src="zadani/registrace.png" alt="Formulář" width="50%" height="auto" />
 
