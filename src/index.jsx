@@ -2,6 +2,8 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 
+import Registration from './components/Registration';
+
 const App = () => {
   return (
     <div className="container">
@@ -10,11 +12,7 @@ const App = () => {
         <h1>Webová aplikace</h1>
       </header>
       <main>
-        <p>
-          Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
-          .
-        </p>
+        <Registration />
       </main>
       <footer>
         <p>Czechitas, Digitální akademie: Web</p>
@@ -23,6 +21,4 @@ const App = () => {
   );
 };
 
-createRoot(
-  document.querySelector('#app'),
-).render(<App />);
+createRoot(document.querySelector('#app')).render(<App />);
